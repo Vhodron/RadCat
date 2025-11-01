@@ -7,14 +7,14 @@
                 "${workspaceFolder}/src",
                 "${workspaceFolder}/src/devices",
                 "${workspaceFolder}/src/devices/comps",
-                "F:/payton13",
-                "F:/payton13/lib/site-packages/pybind11/include",
-                "F:/payton13/include"
+                "${workspaceFolder}/src/Included",
+                "${env:ROOTSYS}/include"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
-                "_UNICODE"
+                "_UNICODE",
+                "ROOTCORE"
             ],
             "windowsSdkVersion": "10.0.22621.0",
             "compilerPath": "cl.exe",
